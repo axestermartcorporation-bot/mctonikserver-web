@@ -1,0 +1,13 @@
+{
+    "name": "mctonikserver-web",
+    "version": "1.0.0",
+    "description": "Oficialni web McTonikServeru",
+    "main": "server/server.js",
+    "scripts": {
+        "start": "node server/server.js"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "minecraft-server-util": "^5.4.4"
+    }
+}
