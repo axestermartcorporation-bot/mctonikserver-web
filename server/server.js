@@ -3,7 +3,7 @@ const path = require("path");
 const { status } = require("minecraft-server-util");
 
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const WEB_ROOT = path.join(__dirname, "..");
 
